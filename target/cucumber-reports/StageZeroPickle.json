@@ -1,0 +1,238 @@
+[ {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2022-08-10T14:17:48.356Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 3579934200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.Hooks.Before()"
+      }
+    } ],
+    "line" : 4,
+    "name" : "Login with user details",
+    "description" : "",
+    "id" : "authentication;login-with-user-details",
+    "after" : [ {
+      "result" : {
+        "duration" : 626064300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.Hooks.After()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 275251800,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "I am at the login page",
+      "match" : {
+        "location" : "StepDefinitions.MyStepDefs.iAmAtTheLoginPage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1298741400,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User enters their credentials and submits",
+      "match" : {
+        "location" : "StepDefinitions.MyStepDefs.userEntersTheirCredentialsAndSubmits()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 49224900,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "I am redirected to the home page",
+      "match" : {
+        "location" : "StepDefinitions.MyStepDefs.iAmRedirectedToTheHomePage()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@Authentication"
+    } ]
+  } ],
+  "name" : "Authentication",
+  "description" : "",
+  "id" : "authentication",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/Authentication.feature",
+  "tags" : [ {
+    "name" : "@Authentication",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2022-08-10T14:18:05.070Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 3580370400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.Hooks.Before()"
+      }
+    } ],
+    "line" : 14,
+    "name" : "Logout",
+    "description" : "",
+    "id" : "authentication;logout",
+    "after" : [ {
+      "result" : {
+        "duration" : 623599900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.Hooks.After()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2786784800,
+        "status" : "passed"
+      },
+      "line" : 15,
+      "name" : "I am logged in as user",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationSteps.setLoginAsUser()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 469844600,
+        "status" : "passed"
+      },
+      "line" : 16,
+      "name" : "I logout",
+      "match" : {
+        "location" : "StepDefinitions.MyStepDefs.iLogout()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 15012600,
+        "status" : "passed"
+      },
+      "line" : 17,
+      "name" : "I am redirected to the login page",
+      "match" : {
+        "location" : "StepDefinitions.MyStepDefs.iAmRedirectedToTheLoginPage()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@Authentication"
+    } ]
+  } ],
+  "name" : "Authentication",
+  "description" : "",
+  "id" : "authentication",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/Authentication.feature",
+  "tags" : [ {
+    "name" : "@Authentication",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2022-08-10T14:17:57.183Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 3559377900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.Hooks.Before()"
+      }
+    } ],
+    "line" : 9,
+    "name" : "Login with admin credentials",
+    "description" : "",
+    "id" : "authentication;login-with-admin-credentials",
+    "after" : [ {
+      "result" : {
+        "duration" : 609225400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.Hooks.After()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 374708200,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "I am at the login page",
+      "match" : {
+        "location" : "StepDefinitions.MyStepDefs.iAmAtTheLoginPage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1383916300,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Admin enters their credentials and submits",
+      "match" : {
+        "location" : "StepDefinitions.MyStepDefs.adminEntersTheirCredentialsAndSubmits()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 51684000,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "I am redirected to the home page",
+      "match" : {
+        "location" : "StepDefinitions.MyStepDefs.iAmRedirectedToTheHomePage()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@Authentication"
+    } ]
+  } ],
+  "name" : "Authentication",
+  "description" : "",
+  "id" : "authentication",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/Authentication.feature",
+  "tags" : [ {
+    "name" : "@Authentication",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} ]
